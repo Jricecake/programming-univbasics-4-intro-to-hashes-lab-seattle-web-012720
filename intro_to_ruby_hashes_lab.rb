@@ -23,12 +23,14 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  hash = {}
+  hash = {
     key => value
+  }
 end
 
 def read_from_hash(hash, key)
-  return key
+  hash = {}
+  return hash[:key]
 end
 
 def update_counting_hash(hash, key)
