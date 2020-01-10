@@ -32,7 +32,6 @@ def read_from_hash(hash, key)
   hash = {
     key => value
   }
-  return :key value
 end
 
 def update_counting_hash(hash, key)
