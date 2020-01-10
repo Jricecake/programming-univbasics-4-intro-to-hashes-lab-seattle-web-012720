@@ -36,8 +36,10 @@ end
 def update_counting_hash(hash, key)
   hash
   if hash[key]
-    p hash[key] += 1
+    hash[key] += 1
+    return key
   else
-    return hash[key] = 1
+    hash[key] = 1
+    return key
   end
 end
