@@ -30,7 +30,7 @@ end
 
 def read_from_hash(hash, key)
   hash = {
-    :key => 1
+    :key => hash
   }
 end
 
